@@ -9,5 +9,20 @@ from calculator import Calculator
 def test_app():
     my_calculator = Calculator()
     assert my_calculator.get_hello_message() == "== Calculatrice v1.0 =="
+    
+def test_addition():
+    calculator = Calculator()
+    assert calculator.addition(2, 3) == 5
+    
+def test_subtraction():
+    calculator = Calculator()
+    assert calculator.subtraction(10, 4) == 6
 
-# TODO: ajoutez les tests
+def test_multiplication():
+    calculator = Calculator()
+    assert calculator.multiplication(3, 4) == 12
+
+def test_division():
+    calculator = Calculator()
+    assert calculator.division(10, 2) == 5
+    

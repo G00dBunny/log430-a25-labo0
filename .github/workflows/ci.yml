@@ -6,7 +6,9 @@ jobs:
   build:
     runs-on: self-hosted
     environment: Labo0
-
+    env:
+      RUNNER_TOOL_CACHE: /Users/bradleysanchez/toolcache
+      ACTIONS_STEP_DEBUG: true
     steps:
       - name: Checkout dépot
         uses: actions/checkout@v3

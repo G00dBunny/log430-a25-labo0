@@ -21,7 +21,7 @@ jobs:
           pip install pytest
 
       - name: Tests
-        working-directory: src
+        working-directory: log430-a25-labo0
         run: |
           python -m pytest
 

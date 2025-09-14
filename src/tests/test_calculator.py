@@ -24,5 +24,5 @@ def test_multiplication():
 
 def test_division():
     calculator = Calculator()
-    assert calculator.division(10, 2) == 4
+    assert calculator.division(10, 2) == 5
     
